@@ -17,7 +17,7 @@ const FooterContainer = styled.footer`
 	justify-content: space-around;
 	align-items: baseline;
 	flex-direction: row;
-	background-color: #f7adaf;
+	background-color: #c4d2e4;
 	font-family: 'gothamPro', sans-serif;
 	color: white;
 	padding: 5px;
@@ -64,7 +64,7 @@ const ConteudoContent = styled.div`
 `;
 
 const ExpandedContent = styled.div`
-	color: #7b193f; /* Cor diferente para o texto expandido */
+	color: #042174; /* Cor diferente para o texto expandido */
 	display: flex;
 	align-items: center;
 	flex-direction: row;
@@ -92,7 +92,7 @@ const ExpandedContent = styled.div`
 	}
 `;
 const ExpandedContentEnd = styled.div`
-	color: #7b193f; /* Cor diferente para o texto expandido */
+	color: #042174; /* Cor diferente para o texto expandido */
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -122,7 +122,7 @@ const ExpandedContentEnd = styled.div`
 `;
 
 const ContainerGeolocation = styled.div`
-	color: #7b193f; /* Cor diferente para o texto expandido */
+	color: #042174; /* Cor diferente para o texto expandido */
 	display: flex;
 	/* align-items: center; */
 	flex-direction: column;
@@ -258,7 +258,7 @@ const Footer: React.FC = () => {
 					<Btn>
 						<Icon
 							component={InstagramIcon}
-							iconColor="#7B193F"
+							iconColor="#042174"
 							hoverColor="#f8f8f8"
 							onClick={handleInstagramShare}
 						/>
@@ -266,21 +266,21 @@ const Footer: React.FC = () => {
 
 					{/* <Icon
 						component={FacebookIcon}
-						iconColor="#7B193F"
+						iconColor="#042174"
 						hoverColor="#f8f8f8"
 						hoverBackgroundColor="#3445db"
 						onClick={handleFacebookShare}
 					/> */}
 					<Icon
 						component={LinkedInIcon}
-						iconColor="#7B193F"
+						iconColor="#042174"
 						hoverColor="#f8f8f8"
 						hoverBackgroundColor="#3445db"
 						// onClick={handleLinkedInShare}
 					/>
 					{/* <Icon
 						component={TwitterIcon}
-						iconColor="#7B193F"
+						iconColor="#042174"
 						hoverColor="#f8f8f8"
 						hoverBackgroundColor="#3445db"
 						onClick={handleTwitterShare}
@@ -293,7 +293,7 @@ const Footer: React.FC = () => {
 					<Icon
 						component={WhatsAppIcon}
 						onClick={handleButtonClick}
-						iconColor="#7B193F"
+						iconColor="#042174"
 						hoverColor="#f8f8f8"
 						hoverBackgroundColor="#50db34"
 					/>
@@ -301,18 +301,18 @@ const Footer: React.FC = () => {
 						<Icon
 							component={InstagramIcon}
 							onClick={openInstagramChat}
-							iconColor="#7B193F"
+							iconColor="#042174"
 							hoverColor="#f8f8f8"
 						/>
 					</Btn>
 					{/* <Mensseger
-						iconColor="#7B193F"
+						iconColor="#042174"
 						hoverColor="#f8f8f8"
 						hoverBackgroundColor="#3445db"
 					/> */}
 					<Icon
 						component={TelegramIcon}
-						iconColor="#7B193F"
+						iconColor="#042174"
 						hoverColor="#f8f8f8"
 						hoverBackgroundColor="#3445db"
 					/>
@@ -320,21 +320,21 @@ const Footer: React.FC = () => {
 			</ConteudoContent>
 			<ExpandedContent>
 				<ExpandedContentEnd>
-					<Text>UNIDADE I : R Ana Vilar, 348</Text>
-					<Text>Cruzeiro</Text>
-					<Text>Campina Grande - PB</Text>
+					<Text>UNIDADE I : Rua das Rosas, 123</Text>
+					<Text>Bairro Florido</Text>
+					<Text>Cidade Belavida</Text>
 					<Text>Fone:</Text>
-					<Text>(83)99383-7785</Text>
+					<Text>(xx)9888-1111</Text>
 				</ExpandedContentEnd>
 			</ExpandedContent>
 			<ExpandedContent>
 				<ExpandedContentEnd>
-					<Text>UNIDADE II : R Odilon almeida Barreto, 11</Text>
-					<Text>Centro</Text>
+					<Text>UNIDADE II : Avenida das Belezas, 456</Text>
+					<Text>Bairro Charme</Text>
 					<Text>Comercial Miranda, 1º Andar, sala 3</Text>
-					<Text>Queimadas PB</Text>
+					<Text>Cidade Encantada</Text>
 					<Text>Fone:</Text>
-					<Text>(83)99383-7785</Text>
+					<Text>(xx)94444-3333</Text>
 				</ExpandedContentEnd>
 			</ExpandedContent>
 			<ExpandedContent></ExpandedContent>
@@ -348,14 +348,14 @@ const Footer: React.FC = () => {
 					<a
 						href="#"
 						onClick={() => setSelectedMap('unidade1')}
-						style={{ color: '#7b193f' }}
+						style={{ color: '#042174' }}
 					>
 						Localização da Unidade I
 					</a>
 					<a
 						href="#"
 						onClick={() => setSelectedMap('unidade2')}
-						style={{ color: '#7b193f' }}
+						style={{ color: '#042174' }}
 					>
 						Localização da Unidade II
 					</a>

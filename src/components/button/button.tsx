@@ -3,6 +3,7 @@ import React, { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import '../../style/styleFonte2.css';
+import './stylesButton.css';
 
 interface SectionContainerProps {
 	flexDirection?: string;
@@ -25,7 +26,8 @@ const StyledButton = styled(Button)<SectionContainerProps>`
 		box-shadow: rgba(12, 12, 12, 0.44) 2px 5px 8px;
 
 		&:hover {
-			background-color: #f7adaf;
+			background-color: #c684ff;
+			color: #042174;
 		}
 
 		&:focus {
@@ -74,9 +76,10 @@ const Buttom: React.FC<ButtonProps> = ({
 			{to ? (
 				<Link
 					to={to}
+					className="custom-link"
 					style={{
 						textDecoration: 'none',
-						color: 'white',
+						// color: 'white',
 					}}
 				>
 					{titlePhrase}

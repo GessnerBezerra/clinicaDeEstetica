@@ -66,8 +66,8 @@ const closeButtonStyle = {
 	position: 'absolute' as const,
 	button: 0,
 	right: 10,
-	// backgroundColor: '#f7adaf',
-	// color: '#7B193F',
+	// backgroundColor: '#7ba1d3',
+	// color: '#030303',
 	mb: 2,
 };
 
@@ -231,7 +231,7 @@ const PgPdfCapilar: React.FC = () => {
 		backgroundColor: 'rgba(255, 255, 255, 0.8)',
 		...getModalSize(),
 		p: 0,
-		border: '2px solid #f7adaf',
+		border: '2px solid #c4d2e4',
 		borderRadius: 3,
 	});
 
@@ -243,7 +243,7 @@ const PgPdfCapilar: React.FC = () => {
 		backgroundColor: 'rgba(255, 255, 255, 0.8)',
 		...getModalAcertoSize(),
 		p: 0,
-		border: '2px solid #f7adaf',
+		border: '2px solid #c4d2e4',
 		borderRadius: 3,
 	});
 
@@ -539,7 +539,7 @@ const PgPdfCapilar: React.FC = () => {
 						justifyContent: 'center',
 						flexDirection: 'column',
 						height: '100vh', // Definir a altura para ocupar a tela inteira
-						color: '#7B193F',
+						color: '#080808',
 					}}
 				>
 					<Header />
@@ -559,7 +559,7 @@ const PgPdfCapilar: React.FC = () => {
 								fontFamily="gothamPro"
 								margin="20px 15px"
 								padding="5px"
-								sx={{ background: '#f7adaf' }}
+								sx={{ background: '#7ba1d3' }}
 							>
 								Formulário de Anamnese Capilar
 							</ParagrafoConteinar>
@@ -570,12 +570,12 @@ const PgPdfCapilar: React.FC = () => {
 								style={{
 									padding: 16,
 									margin: '20px 15px',
-									color: '#7B193F',
+									color: '#080808',
 								}}
 							>
 								<InputLabel
 									style={{
-										color: '#7B193F',
+										color: '#080808',
 										fontFamily: 'gothamPro',
 									}}
 								>
@@ -642,12 +642,12 @@ const PgPdfCapilar: React.FC = () => {
 											style={{
 												padding: 10,
 												margin: '20px 15px',
-												color: '#7B193F',
+												color: '#080808',
 											}}
 										>
 											<InputLabel
 												style={{
-													color: '#7B193F',
+													color: '#080808',
 													fontFamily: 'gothamPro',
 												}}
 											>
@@ -683,7 +683,7 @@ const PgPdfCapilar: React.FC = () => {
 							>
 								<InputLabel
 									style={{
-										color: '#7B193F',
+										color: '#080808',
 										fontFamily: 'gothamPro',
 									}}
 								>
@@ -744,7 +744,7 @@ const PgPdfCapilar: React.FC = () => {
 							>
 								<InputLabel
 									style={{
-										color: '#7B193F',
+										color: '#080808',
 										fontFamily: 'gothamPro',
 									}}
 								>
@@ -792,7 +792,7 @@ const PgPdfCapilar: React.FC = () => {
 							>
 								<InputLabel
 									style={{
-										color: '#7B193F',
+										color: '#080808',
 										fontFamily: 'gothamPro',
 									}}
 								>
@@ -837,7 +837,7 @@ const PgPdfCapilar: React.FC = () => {
 							>
 								<InputLabel
 									style={{
-										color: '#7B193F',
+										color: '#080808',
 										fontFamily: 'gothamPro',
 									}}
 								>
@@ -882,7 +882,7 @@ const PgPdfCapilar: React.FC = () => {
 							>
 								<InputLabel
 									style={{
-										color: '#7B193F',
+										color: '#080808',
 										fontFamily: 'gothamPro',
 									}}
 								>
@@ -912,7 +912,7 @@ const PgPdfCapilar: React.FC = () => {
 							>
 								<InputLabel
 									style={{
-										color: '#7B193F',
+										color: '#080808',
 										fontFamily: 'gothamPro',
 									}}
 								>
@@ -942,7 +942,7 @@ const PgPdfCapilar: React.FC = () => {
 							>
 								<InputLabel
 									style={{
-										color: '#7B193F',
+										color: '#080808',
 										fontFamily: 'gothamPro',
 									}}
 								>
@@ -975,7 +975,7 @@ const PgPdfCapilar: React.FC = () => {
 								margin="20px 15px"
 								padding="5px"
 								fontFamily="gothamPro"
-								sx={{ background: '#f7adaf' }}
+								sx={{ background: '#7ba1d3' }}
 							>
 								QUESTIONÁRIO DE RASTREAMENTO METABÓLICO
 							</ParagrafoConteinar>
@@ -997,10 +997,10 @@ const PgPdfCapilar: React.FC = () => {
 								>
 									<InputLabel
 										style={{
-											color: '#7B193F',
+											color: '#080808',
 											fontFamily: 'gothamPro',
 											fontSize: '12px',
-											background: '#f7adaf',
+											background: '#7ba1d3',
 											textAlign: 'center',
 											content: 'none',
 										}}
@@ -1018,7 +1018,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -1059,7 +1059,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1093,7 +1093,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1113,7 +1113,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -1153,7 +1153,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1187,7 +1187,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1207,7 +1207,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -1247,7 +1247,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1281,7 +1281,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1301,7 +1301,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -1341,7 +1341,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1375,7 +1375,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1395,7 +1395,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -1436,7 +1436,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1470,7 +1470,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1490,7 +1490,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -1531,7 +1531,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1565,7 +1565,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1585,7 +1585,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -1626,7 +1626,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1660,7 +1660,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1680,7 +1680,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -1721,7 +1721,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1755,7 +1755,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1775,7 +1775,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -1816,7 +1816,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1850,7 +1850,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1872,10 +1872,10 @@ const PgPdfCapilar: React.FC = () => {
 								>
 									<InputLabel
 										style={{
-											color: '#7B193F',
+											color: '#080808',
 											fontFamily: 'gothamPro',
 											fontSize: '12px',
-											background: '#f7adaf',
+											background: '#7ba1d3',
 											textAlign: 'center',
 										}}
 									>
@@ -1891,7 +1891,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -1931,7 +1931,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1965,7 +1965,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -1985,7 +1985,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -2025,7 +2025,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2059,7 +2059,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2079,7 +2079,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -2119,7 +2119,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2153,7 +2153,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2173,7 +2173,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -2213,7 +2213,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2247,7 +2247,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2267,7 +2267,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -2307,7 +2307,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2341,7 +2341,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2362,7 +2362,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -2402,7 +2402,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2436,7 +2436,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2456,7 +2456,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -2496,7 +2496,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2530,7 +2530,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2550,7 +2550,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -2590,7 +2590,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2624,7 +2624,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2644,7 +2644,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -2684,7 +2684,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2718,7 +2718,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2738,7 +2738,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -2780,7 +2780,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2814,7 +2814,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2845,10 +2845,10 @@ const PgPdfCapilar: React.FC = () => {
 								>
 									<InputLabel
 										style={{
-											color: '#7B193F',
+											color: '#080808',
 											fontFamily: 'gothamPro',
 											fontSize: '12px',
-											background: '#f7adaf',
+											background: '#7ba1d3',
 											textAlign: 'center',
 										}}
 									>
@@ -2864,7 +2864,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -2904,7 +2904,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2938,7 +2938,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -2958,7 +2958,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -2998,7 +2998,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3032,7 +3032,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3052,7 +3052,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -3093,7 +3093,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3127,7 +3127,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3147,7 +3147,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -3188,7 +3188,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3222,7 +3222,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3242,7 +3242,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -3282,7 +3282,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3316,7 +3316,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3336,7 +3336,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -3377,7 +3377,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3411,7 +3411,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3431,7 +3431,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -3472,7 +3472,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3506,7 +3506,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3526,7 +3526,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -3566,7 +3566,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3600,7 +3600,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3620,7 +3620,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -3661,7 +3661,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3695,7 +3695,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3715,7 +3715,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -3755,7 +3755,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3789,7 +3789,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3811,10 +3811,10 @@ const PgPdfCapilar: React.FC = () => {
 								>
 									<InputLabel
 										style={{
-											color: '#7B193F',
+											color: '#080808',
 											fontFamily: 'gothamPro',
 											fontSize: '12px',
-											background: '#f7adaf',
+											background: '#7ba1d3',
 											textAlign: 'center',
 										}}
 									>
@@ -3830,7 +3830,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -3870,7 +3870,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3904,7 +3904,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3924,7 +3924,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -3964,7 +3964,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -3998,7 +3998,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4018,7 +4018,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -4059,7 +4059,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4093,7 +4093,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4113,7 +4113,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -4154,7 +4154,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4188,7 +4188,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4208,7 +4208,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -4249,7 +4249,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4283,7 +4283,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4304,7 +4304,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -4344,7 +4344,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4378,7 +4378,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4398,7 +4398,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -4438,7 +4438,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4472,7 +4472,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4492,7 +4492,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -4532,7 +4532,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4566,7 +4566,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4586,7 +4586,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -4626,7 +4626,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4660,7 +4660,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4680,7 +4680,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -4720,7 +4720,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4754,7 +4754,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4785,10 +4785,10 @@ const PgPdfCapilar: React.FC = () => {
 								>
 									<InputLabel
 										style={{
-											color: '#7B193F',
+											color: '#080808',
 											fontFamily: 'gothamPro',
 											fontSize: '12px',
-											background: '#f7adaf',
+											background: '#7ba1d3',
 											textAlign: 'center',
 										}}
 									>
@@ -4806,7 +4806,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -4846,7 +4846,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4880,7 +4880,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4900,7 +4900,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -4941,7 +4941,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4975,7 +4975,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -4995,7 +4995,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -5035,7 +5035,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5069,7 +5069,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5089,7 +5089,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -5130,7 +5130,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5164,7 +5164,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5184,7 +5184,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -5224,7 +5224,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5258,7 +5258,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5278,7 +5278,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -5318,7 +5318,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5352,7 +5352,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5372,7 +5372,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -5413,7 +5413,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5447,7 +5447,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5467,7 +5467,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -5507,7 +5507,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5541,7 +5541,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5561,7 +5561,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -5601,7 +5601,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5635,7 +5635,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5655,7 +5655,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -5696,7 +5696,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5730,7 +5730,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5752,10 +5752,10 @@ const PgPdfCapilar: React.FC = () => {
 								>
 									<InputLabel
 										style={{
-											color: '#7B193F',
+											color: '#080808',
 											fontFamily: 'gothamPro',
 											fontSize: '12px',
-											background: '#f7adaf',
+											background: '#7ba1d3',
 											textAlign: 'center',
 										}}
 									>
@@ -5771,7 +5771,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -5813,7 +5813,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5847,7 +5847,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5867,7 +5867,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -5907,7 +5907,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5941,7 +5941,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -5961,7 +5961,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -6001,7 +6001,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -6035,7 +6035,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -6055,7 +6055,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -6095,7 +6095,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -6129,7 +6129,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -6149,7 +6149,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -6190,7 +6190,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -6224,7 +6224,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -6245,7 +6245,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -6285,7 +6285,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -6319,7 +6319,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -6339,7 +6339,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -6379,7 +6379,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -6413,7 +6413,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -6433,7 +6433,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -6473,7 +6473,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -6507,7 +6507,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -6527,7 +6527,7 @@ const PgPdfCapilar: React.FC = () => {
 									>
 										<ParagrafoConteinar
 											style={{
-												color: '#7B193F',
+												color: '#080808',
 												fontFamily: 'gothamPro',
 												margin: '5px 0',
 												fontSize: '12px',
@@ -6568,7 +6568,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -6602,7 +6602,7 @@ const PgPdfCapilar: React.FC = () => {
 													<span
 														style={{
 															fontSize: '12px',
-															color: '#7B193F',
+															color: '#080808',
 															fontFamily:
 																'gothamPro',
 														}}
@@ -6631,7 +6631,7 @@ const PgPdfCapilar: React.FC = () => {
 											sx={{ p: 0 }}
 										>
 											<Buttom
-												background="#7B193F"
+												background="#73BAFB"
 												titlePhrase="Salvar dados"
 												onClick={GerarPDF}
 												fontSize="12px"
@@ -6676,11 +6676,11 @@ const PgPdfCapilar: React.FC = () => {
 						variant="h6"
 						component="h6"
 						sx={{
-							backgroundColor: '#f7adaf',
+							backgroundColor: '#7ba1d3',
 							alignItems: 'center',
 							display: 'flex',
 							justifyContent: 'center',
-							color: '#7b193f',
+							color: '#080808',
 							fontFamily: 'gothamPro',
 							borderRadius: 3,
 						}}
@@ -6691,7 +6691,7 @@ const PgPdfCapilar: React.FC = () => {
 						id="error-modal-description"
 						sx={{
 							mt: 5,
-							color: '#7b193f',
+							color: '#080808',
 							fontFamily: 'gothamPro',
 						}}
 					>
@@ -6702,7 +6702,7 @@ const PgPdfCapilar: React.FC = () => {
 						onClick={handleCloseModal}
 					>
 						<Buttom
-							background="#7B193F"
+							background="#080808"
 							titlePhrase="Fechar"
 							fontSize="12px"
 						/>
@@ -6724,11 +6724,11 @@ const PgPdfCapilar: React.FC = () => {
 						variant="h6"
 						component="h6"
 						sx={{
-							backgroundColor: '#f7adaf',
+							backgroundColor: '#7ba1d3',
 							alignItems: 'center',
 							display: 'flex',
 							justifyContent: 'center',
-							color: '#7b193f',
+							color: '#080808',
 							fontFamily: 'gothamPro',
 							borderRadius: 3,
 						}}
@@ -6739,7 +6739,7 @@ const PgPdfCapilar: React.FC = () => {
 						id="error-modal-description"
 						sx={{
 							mt: 2,
-							color: '#7b193f',
+							color: '#080808',
 							fontFamily: 'gothamPro',
 						}}
 					>
@@ -6766,7 +6766,7 @@ const PgPdfCapilar: React.FC = () => {
 						onClick={handleCloseModal}
 					>
 						<Buttom
-							background="#7B193F"
+							background="#080808"
 							titlePhrase="Fechar"
 							fontSize="8px"
 						/>

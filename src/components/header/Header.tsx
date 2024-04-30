@@ -13,7 +13,7 @@ import React from 'react';
 import styled from 'styled-components';
 import './styles.css';
 
-import logo from '../../../public/assets/Logo.png';
+import logo from '../../../public/assets/logo_trial.png';
 import '../../style/style.css';
 import LongMenu from '../menuPdf/menuPdf';
 import Titulo from '../titulo/titulo';
@@ -24,12 +24,12 @@ const HeaderContainer = styled(AppBar)`
 	width: 100%;
 	align-items: center;
 	/* padding: 5px; */
-	background-color: #f7adaf; /* Altere a cor aqui */
-	color: #7b193f;
+	/* background-color: #dfe3e8; */
+	/* color: #042174; */
 	position: fixed;
 	top: 0;
 	z-index: 999;
-
+	/* #042174 #7b193f */
 	@media (max-width: 768px) {
 		flex-direction: column;
 		align-items: flex-start;
@@ -37,28 +37,20 @@ const HeaderContainer = styled(AppBar)`
 `;
 
 const TooltipContaener = styled(Tooltip)`
-	background: #4343b9;
-	/* background: var(--background); */
+	background: #c684ff;
 	position: relative;
 	cursor: pointer;
 	transition: all 0.5s;
-	/* font-size: 17px; */
-	/* border-radius: 10px; */
-	/* width: 8em; */
-
 	display: flex;
 	justify-content: right;
 	align-items: flex-start;
 
 	::before {
-		/* position: absolute; */
 		content: '';
-		/* height: 0.6em;
-	width: 0.6em; */
+		width: 0.6em;
 		bottom: -0.2em;
-		/* left: 50%; */
 		transform: translate(-50%) rotate(45deg);
-		background: #4343b9;
+		background: #c684ff;
 	}
 
 	:hover {
@@ -67,7 +59,7 @@ const TooltipContaener = styled(Tooltip)`
 		visibility: visible;
 		pointer-events: auto;
 		animation: shake 500ms ease-in-out forwards;
-		background: #4343b9;
+		background: #c684ff;
 	}
 
 	@keyframes shake {
@@ -135,7 +127,7 @@ const Header: React.FC = () => {
 	return (
 		<>
 			<HeaderContainer
-				style={{ backgroundColor: '#f7adaf' }}
+				style={{ backgroundColor: '#DFE3E8' }}
 				position="fixed"
 			>
 				<Container maxWidth="xl">
@@ -165,10 +157,7 @@ const Header: React.FC = () => {
 								textDecoration: 'none',
 							}}
 						>
-							<Titulo
-								tituloFrase=" Adrimelo - Beleza,
-					Estética Facial Avançada e Tratamentos Capilares"
-							/>
+							<Titulo tituloFrase=" Site para clinicas" />
 						</Typography>
 						<Box
 							sx={{
@@ -233,10 +222,10 @@ const Header: React.FC = () => {
 											textAlign="center"
 											sx={{
 												'&:hover': {
-													backgroundColor: '#7b193f ', // Cor de fundo ao passar o mouse
-													color: '#f7adaf',
+													backgroundColor: '#c684ff ', // Cor de fundo ao passar o mouse
+													color: '#042174',
 												},
-												color: '#7b193f', // Cor do texto (opcional, dependendo do seu design)
+												color: '#042174', // Cor do texto (opcional, dependendo do seu design)
 												width: '100%',
 											}}
 										>
@@ -313,13 +302,13 @@ const Header: React.FC = () => {
 										onClick={() => handleButtonClick(page)}
 										sx={{
 											my: 2,
-											color: '#7b193f',
+											color: '#042174',
 											display: 'flex',
 											fontSize: '10px',
 											fontWeight: 'bold',
 											'&:hover': {
-												backgroundColor: '#7b193f', // Cor de fundo ao passar o mouse
-												color: '#f7adaf',
+												backgroundColor: '#c684ff', // Cor de fundo ao passar o mouse
+												color: '#042174',
 											},
 										}}
 									>

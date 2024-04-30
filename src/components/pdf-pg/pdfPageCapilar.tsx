@@ -1168,7 +1168,7 @@ const AnamnesePDF: React.FC<AnamnesePDFProps> = ({ data }) => {
 		<>
 			{loading && <Loading />}
 			<Buttom
-				background="#7B193F"
+				background="#73BAFB"
 				fontSize="12px"
 				titlePhrase="Gerar Relatório em PDF"
 				onClick={() => generatePDF(perguntas.cpf)}

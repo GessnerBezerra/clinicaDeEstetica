@@ -60,7 +60,7 @@ const ConteudoContent = styled.div`
 `;
 
 const ExpandedContent = styled.div`
-	color: #7b193f; /* Cor diferente para o texto expandido */
+	color: #042174; /* Cor diferente para o texto expandido */
 	display: flex;
 	align-items: baseline;
 	flex-direction: row;
@@ -90,7 +90,7 @@ const ExpandedContent = styled.div`
 `;
 
 const ExpandedContentEnd = styled.div`
-	color: #7b193f; /* Cor diferente para o texto expandido */
+	color: #042174; /* Cor diferente para o texto expandido */
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -194,7 +194,7 @@ const Footer2: React.FC = () => {
 					<Btn>
 						<Icon
 							component={InstagramIcon}
-							iconColor="#7B193F"
+							iconColor="#042174"
 							hoverColor="#f8f8f8"
 							onClick={handleInstagramShare}
 						/>
@@ -202,7 +202,7 @@ const Footer2: React.FC = () => {
 
 					{/* <Icon
 						component={FacebookIcon}
-						iconColor="#7B193F"
+						iconColor="#042174"
 						hoverColor="#f8f8f8"
 						hoverBackgroundColor="#3445db"
 						onClick={handleFacebookShare}
@@ -210,7 +210,7 @@ const Footer2: React.FC = () => {
 
 					{/* <Icon
 						component={TwitterIcon}
-						iconColor="#7B193F"
+						iconColor="#042174"
 						hoverColor="#f8f8f8"
 						hoverBackgroundColor="#3445db"
 						onClick={handleTwitterShare}
@@ -220,7 +220,7 @@ const Footer2: React.FC = () => {
 					<Icon
 						component={WhatsAppIcon}
 						onClick={handleButtonClick}
-						iconColor="#7B193F"
+						iconColor="#042174"
 						hoverColor="#f8f8f8"
 						hoverBackgroundColor="#50db34"
 					/>
@@ -228,7 +228,7 @@ const Footer2: React.FC = () => {
 				<ExpandedContent>
 					<Icon
 						component={LinkedInIcon}
-						iconColor="#7B193F"
+						iconColor="#042174"
 						hoverColor="#f8f8f8"
 						hoverBackgroundColor="#3445db"
 						onClick={handleLinkedInShare}

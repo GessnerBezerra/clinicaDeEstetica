@@ -70,7 +70,7 @@ const TextContainer = styled.div`
 const Text = styled.div`
 	font-size: 20px;
 	/* box-shadow: rgba(12, 12, 12, 0.44) 8px 5px 8px; */
-	color: #7b193f;
+	color: #042174;
 	margin-bottom: 5%;
 	position: relative;
 	border-radius: 2%;
@@ -119,7 +119,7 @@ const SectionComponent: React.FC<{
 						<p id={styles.post}>{item.caption}</p>
 					</Text>
 					<Buttom
-						background="#7b193f"
+						background="#73BAFB"
 						titlePhrase="Saiba +"
 						to="/servicos"
 						fontSize="14px"

@@ -4,8 +4,8 @@ import '../../style/styleFonte2.css';
 
 const TermsContainer = styled.div`
 	width: 90%;
-	color: #7b193f;
-	text-shadow: rgb(123 25 63 / 66%) 0px 0px 10px,
+	color: #042174;
+	text-shadow: rgba(183 160 219 / 66%) 0px 0px 10px,
 		rgb(151 95 117 / 45%) 0px 0px 10px, rgb(228 169 192 / 34%) 0px 0px 10px;
 	max-width: 1200px;
 	margin: 7rem 2vh 4vw 2vw;
@@ -24,11 +24,11 @@ const TermsContainer = styled.div`
 `;
 
 const Paragrafo = styled.h2`
-	color: #7b193f;
+	color: #042174;
 `;
 
 const Paragrafo3 = styled.h4`
-	color: #7b193f;
+	color: #042174;
 `;
 
 const Paragrafo4 = styled.p`
@@ -45,17 +45,16 @@ const TransparenciaComponente: React.FC = () => {
 			{/* <SaibaMaisPage /> */}
 			<TermsContainer>
 				<Paragrafo>
-					Política de Transparência e Privacidade - Adrimelo - Beleza,
-					Estética Facial Avançada e Tratamentos Capilares
+					Política de Transparência e Privacidade - Estética e
+					Tratamento Facial Avançada
 				</Paragrafo>
 				<Paragrafo4>
-					A sua privacidade é uma prioridade para nós na Adrimelo -
-					Beleza, Estética Facial Avançada e Tratamentos Capilares.
-					Comprometemo-nos a respeitar e proteger suas informações
-					pessoais. Esta política de transparência e privacidade
-					explica como coletamos, usamos e protegemos as informações
-					que você fornece ao usar nosso site e outros sites
-					relacionados.
+					A sua privacidade é uma prioridade para nós na Estética e
+					Tratamento Facial Avançada. Comprometemo-nos a respeitar e
+					proteger suas informações pessoais. Esta política de
+					transparência e privacidade explica como coletamos, usamos e
+					protegemos as informações que você fornece ao usar nosso
+					site e outros sites relacionados.
 				</Paragrafo4>
 				<Paragrafo3>Coleta e Uso de Informações:</Paragrafo3>
 				<ul>
@@ -146,8 +145,8 @@ const TransparenciaComponente: React.FC = () => {
 				<Paragrafo3>
 					Esperamos que esta política de transparência e privacidade
 					forneça a confiança necessária ao usar nossos serviços.
-					Obrigado por confiar na Adrimelo - Beleza , Estética Facial
-					Avançada e Tratamentos Capilare.
+					Obrigado por confiar na Estética e Tratamento Facial
+					Avançada.
 				</Paragrafo3>
 			</TermsContainer>
 		</>

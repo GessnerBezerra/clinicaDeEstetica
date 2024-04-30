@@ -10,9 +10,9 @@ const Contaener = styled.div`
 
 const Titul = styled.h3`
 	font-style: normal;
-	font-size: 1em;
+	font-size: 3em;
 	margin: 0;
-	color: #7b193f;
+	color: #7f25ce;
 	font-family: 'Stela', sans-serif;
 	font-weight: 'bold';
 	@media (max-width: 768px) {

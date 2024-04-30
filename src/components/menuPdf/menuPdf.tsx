@@ -24,15 +24,15 @@ const options = [
 const ITEM_HEIGHT = 28;
 
 const ButtonStyle = styled(Button)`
-	background-color: '#7b193f';
+	background-color: '#73BAFB';
 	transition: background-color 0.3s;
 	box-shadow: rgba(12, 12, 12, 0.44) 2px 5px 8px;
 	color: wheat;
 	&:hover {
-		background-color: '#7b193f';
+		background-color: '#c684ff';
 	}
 	@media (max-width: 768px) {
-		background-color: '#7b193f';
+		background-color: '#c684ff';
 		font-size: 10%; // Ajuste conforme necessário
 	}
 `;
@@ -98,8 +98,12 @@ export default function LongMenu() {
 				aria-haspopup="true"
 				aria-expanded={open ? 'true' : undefined}
 				sx={{
-					backgroundColor: '#7B193F',
+					backgroundColor: '#73BAFB',
 					color: 'white',
+					'&:hover': {
+						backgroundColor: '#c684ff', // Cor de fundo ao passar o mouse
+						color: '#042174',
+					},
 				}}
 				// disableElevation
 				onClick={handleClick}
@@ -126,7 +130,7 @@ export default function LongMenu() {
 						display: 'flex',
 						maxHeight: ITEM_HEIGHT * 4.5,
 						width: '20ch',
-						color: '#7B193F',
+						color: '#042174',
 					},
 				}}
 			>
@@ -158,9 +162,10 @@ export default function LongMenu() {
 						}
 						sx={{
 							'&:hover': {
-								backgroundColor: '#f7adaf', // Cor de fundo ao passar o mouse
+								backgroundColor: '#c684ff', // Cor de fundo ao passar o mouse
+								color: '#042174',
 							},
-							color: '#7b193f', // Cor do texto (opcional, dependendo do seu design)
+							color: '#042174', // Cor do texto (opcional, dependendo do seu design)
 							width: '100vw',
 						}}
 					>

@@ -4,8 +4,8 @@ import '../../style/styleFonte2.css';
 
 const TermsContainer = styled.div`
 	width: 90%;
-	color: #7b193f;
-	text-shadow: rgb(123 25 63 / 66%) 0px 0px 10px,
+	color: #042174;
+	text-shadow: rgba(183 160 219 / 66%) 0px 0px 10px,
 		rgb(151 95 117 / 45%) 0px 0px 10px, rgb(228 169 192 / 34%) 0px 0px 10px;
 	max-width: 1200px;
 	margin: 1rem 2vw 4vh 2rem;
@@ -35,11 +35,11 @@ const TermsContainer = styled.div`
 `;
 
 const Paragrafo = styled.h2`
-	color: #7b193f;
+	color: #042174;
 `;
 
 const Paragrafo3 = styled.h3`
-	color: #7b193f;
+	color: #042174;
 `;
 
 const SobreComponente: React.FC = () => {

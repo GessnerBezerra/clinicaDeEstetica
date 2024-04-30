@@ -2,7 +2,7 @@ import Box from '@mui/material/Box';
 import CircularProgress from '@mui/material/CircularProgress';
 import styled from 'styled-components';
 
-import LogoImage from '../../../public/assets/Logo.png'; // Substitua pelo caminho real da sua logo
+import LogoImage from '../../../public/assets/logo_trial.png'; // Substitua pelo caminho real da sua logo
 
 const Container = styled.div`
 	position: relative;
@@ -10,11 +10,12 @@ const Container = styled.div`
 
 const Imagem = styled.img`
 	position: absolute;
-	top: 50%;
+	top: 58%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 80px;
-	height: 80px;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
 `;
 
 const Loading = () => {
@@ -35,7 +36,7 @@ const Loading = () => {
 			<Container>
 				<Imagem src={LogoImage} alt="Logo" />
 				<CircularProgress
-					style={{ marginTop: '20px', color: '#F7ADAF' }}
+					style={{ marginTop: '20px', color: '#9063cd' }}
 					size={80}
 				/>
 			</Container>

@@ -28,13 +28,13 @@ const SaibaMaisContainer = styled.div<SaibaMais>`
 `;
 
 const Titulo = styled.h2`
-	color: #7b193f;
+	color: #042174;
 	margin-bottom: 10px;
 	margin-top: 10px;
 `;
 
 const Titulo3 = styled.h3`
-	color: #7b193f;
+	color: #042174;
 	margin-bottom: 10px;
 	margin-top: 5px;
 `;
@@ -48,8 +48,8 @@ const Descricao = styled.p`
 	/* font-size: 30px; */
 	text-indent: 20px;
 	text-align: left;
-	color: #7b193f;
-	text-shadow: rgb(123 25 63 / 66%) 0px 0px 10px,
+	color: #042174;
+	text-shadow: rgba(183 160 219 / 66%) 0px 0px 10px,
 		rgb(151 95 117 / 45%) 0px 0px 10px, rgb(228 169 192 / 34%) 0px 0px 10px;
 	gap: 1.5rem;
 	padding-bottom: 1rem;
@@ -67,10 +67,10 @@ const Image = styled.img<Image>`
 	/* Adicionado para alinhar verticalmente com o texto */
 	display: inline-block; /* Adicionado para tratar a imagem como um elemento de linha */
 	border-radius: 25% 25% 25% 25%;
-	box-shadow: #7b193f 8px 5px 8px;
+	box-shadow: #042174 8px 5px 8px;
 
 	&:hover {
-		box-shadow: -12px 12px 2px -1px #d684a4;
+		box-shadow: -12px 12px 2px -1px #c4d2e4;
 	}
 `;
 /*width: 100%;

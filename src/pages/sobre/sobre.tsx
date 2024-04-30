@@ -2,7 +2,7 @@ import { Avatar } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
-import Imagem from '../../../public/assets/section/AdrimeloTransparente.png';
+import Imagem from '../../../public/assets/avatar/prof-estetica.png';
 import Footer from '../../components/footer/Footer';
 
 import '../../style/globalStyle.module.css';
@@ -74,7 +74,7 @@ const ImagemContainer = styled.div`
 	/* top: 64px; */
 	position: fixed;
 	z-index: -1;
-	opacity: 0.3;
+	opacity: 0.6;
 
 	@media (min-width: 789px) {
 		top: 12%;
@@ -88,11 +88,11 @@ const Image = styled.img`
 	transition: drop-shadow 0.2s ease-in-out;
 
 	/* border-radius: 5% 5% 5% 5%; */
-	filter: drop-shadow(rgba(153, 22, 87, 0.5) 8px 8px 8px);
+	filter: drop-shadow(rgba(183, 160, 219, 0.5) 8px 8px 8px);
 	/* border-image: right 0 linear-gradient(to right, #0000, #0009); */
 
 	&:hover {
-		filter: drop-shadow(rgba(184, 99, 138, 0.9) -8px 4px 8px);
+		filter: drop-shadow(rgba(183, 160, 219, 0.5) -8px 4px 8px);
 		/* border-image: fill 0 linear-gradient(#0003, #000); */
 	}
 

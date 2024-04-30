@@ -1,10 +1,10 @@
 .tooltip-container {
-	--background: #4343b9;
+	--background: #DFE3E8;
 	background: var(--background);
 	position: relative;
 	cursor: pointer;
 	transition: all 0.2s;
-	font-size: 17px;
+	/* font-size: 3px; */
 	border-radius: 10px;
 	/* width: 8em; */
 
@@ -31,9 +31,8 @@
 .tooltip::before {
 	/* position: absolute; */
 	content: '';
-	/* height: 0.6em;
-	width: 0.6em; */
-	bottom: -0.2em;
+	/* height: 0.6em;*/
+	/* bottom: -0.2em; */
 	/* left: 50%; */
 	transform: translate(-50%) rotate(45deg);
 	background: var(--background);

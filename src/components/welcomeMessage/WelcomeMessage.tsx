@@ -25,7 +25,7 @@ const WelcomeContainer = styled.div`
 	font-family: 'gothamPro', sans-serif;
 	text-align: center;
 	align-items: center;
-	color: #7b193f;
+	color: #042174;
 	/* background-color: rgb(240, 240, 240); */
 	margin-top: 20vh;
 	gap: 0.5rem;
