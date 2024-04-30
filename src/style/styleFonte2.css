@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'gothamPro';
+    src: url('/fonts/gothamPro.woff') format('woff');
+    /* Verifique a extensão do seu arquivo */
+    /* Adicione outros formatos, se necessário */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'gothamPro', sans-serif;
+    /* Use a fonte em seu projeto */
+}

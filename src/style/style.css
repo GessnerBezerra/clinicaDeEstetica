@@ -1,0 +1,12 @@
+/* styles.css */
+@font-face {
+  font-family: 'Stela';
+  src: url('/fonts/stela.woff') format('woff'); /* Verifique a extensão do seu arquivo */
+  /* Adicione outros formatos, se necessário */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font {
+  font-family: 'Stela', sans-serif; /* Use a fonte em seu projeto */
+}

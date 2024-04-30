@@ -1,0 +1,15 @@
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    height: var(--icon-height, 24px);
+    width: var(--icon-width, 24px);
+    background-image: var(--icon-background-image, none);
+    background-size: cover;
+
+    @media (max-width: 768px) {
+        height: var(--icon-height-mobile, 20px);
+        width: var(--icon-width-mobile, 20px);
+    }
+}

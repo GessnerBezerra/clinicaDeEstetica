@@ -1,0 +1,306 @@
+const GerarPDF2 = () => {
+		if (
+			perguntas.nomeCompleto &&
+				perguntas.email &&
+				perguntas.idade &&
+				perguntas.sexo &&
+				perguntas.endereco &&
+				perguntas.bairro &&
+				perguntas.cidade &&
+				perguntas.cep &&
+				perguntas.foneRes &&
+				perguntas.foneCel &&
+				perguntas.estadoCivil &&
+				perguntas.nascimento &&
+				perguntas.profissao &&
+				perguntas.motivoVisita &&
+				perguntas.cpf &&
+				perguntas.lentesDeContato &&
+				!perguntas.utilizCosmeticosResp &&
+				perguntas.exposicaoAoSol &&
+				perguntas.funcintestinalSemana &&
+				perguntas.funcintestinalDia &&
+				perguntas.alimentacao &&
+				perguntas.marcaPasso &&
+				perguntas.hipoHipertensaoArterial)
+				 {
+					
+					if((perguntas.estéticoAnterior === 'Sim' &&
+						perguntas.estéticoAnteriorResp) ||
+					perguntas.estéticoAnterior === 'Não){
+
+					if((perguntas.utilizCosmeticos === 'Sim' &&
+					perguntas.utilizCosmeticosResp) ||
+					perguntas.utilizCosmeticos === 'Não'){
+						
+						if((perguntas.filtroSolar === 'Sim' &&
+							perguntas.filtroSolarResp) ||
+					perguntas.filtroSolar === 'Não' &&){
+
+						if((perguntas.tabagismo === 'Sim' &&
+							perguntas.tabagismoResp) ||
+							perguntas.tabagismo === 'Não'){
+						
+						if((perguntas.ingereAlcool === 'Sim' &&
+							perguntas.ingereAlcoolResp) ||
+						perguntas.ingereAlcool === 'Não'){
+						
+						if((perguntas.qualidadeSono === 'Sim' &&
+							perguntas.qualidadeSonoResp) ||
+						perguntas.qualidadeSono === 'Não'){
+						
+						if((perguntas.ativFisica === 'Sim' &&
+							perguntas.ativFisicaResp) ||
+							perguntas.ativFisica === 'Não'){
+						
+						if((perguntas.usoAnticoncepcional === 'Sim' &&
+							perguntas.usoAnticoncepcionalResp) ||
+							perguntas.usoAnticoncepcional === 'Não'){
+						
+						if((perguntas.gestante === 'Sim' &&
+							perguntas.ultimaMenstruacao) ||
+							perguntas.gestante === 'Não'){
+						
+						if((perguntas.gestacoes === 'Sim' &&
+							perguntas.qtsGestacoes &&
+							perguntas.tmpUltimaGestacao) ||
+							perguntas.gestacoes === 'Não'){
+						
+						if((perguntas.tratMedico === 'Sim' &&
+							perguntas.medicemUso) ||
+							perguntas.tratMedico === 'Não'){
+						
+						if((perguntas.antAlergicos === 'Sim' &&
+							perguntas.antAlergicosResp) ||
+							perguntas.antAlergicos === 'Não'){
+						
+						if((perguntas.alteracoesCardiacas === 'Sim' &&
+							perguntas.alteracoesCardiacasResp) ||
+							perguntas.alteracoesCardiacas === 'Não'){
+						
+						if((perguntas.distRenal === 'Sim' &&
+							perguntas.distRenalResp) ||
+							perguntas.distRenal === 'Não'){
+						
+						if((perguntas.distHormonal === 'Sim' &&
+							perguntas.distHormonalResp) ||
+							perguntas.distHormonal === 'Não'){
+						
+						if((perguntas.distGastroIntest === 'Sim' &&
+							perguntas.distGastroIntestResp) ||
+							perguntas.distGastroIntest === 'Não'){
+						
+						if((perguntas.eplepsiaConvulsoes === 'Sim' &&
+							perguntas.eplepsiaConvulsoesResp) ||
+							perguntas.eplepsiaConvulsoes === 'Não'){
+						
+						if((perguntas.altPsicPsiquiatr === 'Sim' &&
+							perguntas.altPsicPsiquiatrResp) ||
+							perguntas.altPsicPsiquiatr === 'Não'){
+						
+						if((perguntas.estresse === 'Sim' &&
+							perguntas.estresseResp) ||
+							perguntas.estresse === 'Não'){
+						
+						if((perguntas.antecOncologicos === 'Sim' &&
+							perguntas.antecOncologicosResp) ||
+							perguntas.antecOncologicos === 'Não'){
+						
+						if((perguntas.diabetes === 'Sim' &&
+							perguntas.diabetesResp) ||
+							perguntas.diabetes === 'Não'){
+						
+						if((perguntas.algumaDoenca === 'Sim' &&
+							perguntas.algumaDoencaResp) ||
+							perguntas.algumaDoenca === 'Não'){
+						
+						if((perguntas.implDentario === 'Sim' &&
+							perguntas.implDentarioResp) ||
+							perguntas.implDentario === 'Não'){
+						
+						if((perguntas.tratDermatEstetico === 'Sim' &&
+							perguntas.tratDermatEsteticoResp) ||
+							perguntas.tratDermatEstetico === 'Não'){
+						
+						if((perguntas.cirurPlastEstetica === 'Sim' &&
+							perguntas.cirurPlastEsteticaResp) ||
+							perguntas.cirurPlastEstetica === 'Não'){
+						
+						if((perguntas.cirurgReparadora == 'Sim' &&
+							perguntas.cirurgReparadoraResp) ||
+							perguntas.cirurgReparadora === 'Não'){
+
+							setShowPDF(true);
+			// Salvar os valores no localStorage
+			/*cirurgReparadora: '',
+		cirurgReparadoraResp: '',*/
+
+			const dataFormatadaConsulta = formatarDataParaSalvar(
+				perguntas.dataConsulta,
+			);
+
+			const dataFormatadaNascimento = formatarDataParaSalvar(
+				perguntas.nascimento,
+			);
+
+			const dataFormatadaMenstruação = formatarDataParaSalvar(
+				perguntas.ultimaMenstruacao,
+			);
+
+			localStorage.setItem(
+				'anamneseFormDataFacial',
+				JSON.stringify({
+					...perguntas,
+					dataConsulta: dataFormatadaConsulta,
+					nascimento: dataFormatadaNascimento,
+					ultimaMenstruacao: dataFormatadaMenstruação,
+				}),
+			);
+			window.alert(
+				'A data escolhida para a consulta será confirmada posteriormente através dos meios de comunicação fornecidos!!',
+			);
+			window.alert('Dados do formulário salvos com sucesso!!');
+			// setAcertoModalOpen(true);
+
+			// Redefinir o estado para o estado inicial vazio
+			setPerguntas(initialState);	
+						
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					}
+						
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					} 
+					} 
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					} 
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					} 
+					}
+					else {
+					// Exibir modal de erro
+					setErrorModalOpen(true);
+					
+				} 
+			
+				
