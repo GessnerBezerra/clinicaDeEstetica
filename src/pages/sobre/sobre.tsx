@@ -3,11 +3,12 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 import Imagem from '../../../public/assets/avatar/prof-estetica.png';
+import Footer2 from '../../components/footer copy/Footer2';
+// eslint-disable-next-line import-helpers/order-imports
 import Footer from '../../components/footer/Footer';
 
 import '../../style/globalStyle.module.css';
 
-import Footer2 from '../../components/footer copy/Footer2';
 import Header from '../../components/header/Header';
 import Loading from '../../components/loading/loading';
 import SobreComponente from '../../components/sobre';
