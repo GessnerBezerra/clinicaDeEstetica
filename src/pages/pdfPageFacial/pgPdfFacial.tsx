@@ -602,7 +602,7 @@ const PgPdfFacial: React.FC = () => {
 			perguntas.motivoVisita &&
 			perguntas.cpf &&
 			perguntas.lentesDeContato &&
-			!perguntas.utilizCosmeticosResp &&
+			// !perguntas.utilizCosmeticosResp &&
 			perguntas.exposicaoAoSol &&
 			perguntas.funcintestinalSemana &&
 			perguntas.funcintestinalDia &&
