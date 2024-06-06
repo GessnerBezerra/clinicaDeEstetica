@@ -6,11 +6,13 @@ const GerarPDF2 = () => {
 			npx cap add ios
 			"scripts": {
   "build": "vite build"
+  npx cap add android
 }
+npm install @capacitor/android
 npm run build
 npx cap copy
 npx cap open android
-
+git commit -m "Sua mensagem de commit aqui"
 			perguntas.nomeCompleto &&
 				perguntas.email &&
 				perguntas.idade &&
