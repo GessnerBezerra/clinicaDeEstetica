@@ -1,5 +1,16 @@
 const GerarPDF2 = () => {
 		if (
+			npm install @capacitor/core @capacitor/cli
+			npx cap init
+			npx cap add android
+			npx cap add ios
+			"scripts": {
+  "build": "vite build"
+}
+npm run build
+npx cap copy
+npx cap open android
+
 			perguntas.nomeCompleto &&
 				perguntas.email &&
 				perguntas.idade &&
