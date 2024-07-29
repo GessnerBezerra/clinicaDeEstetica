@@ -830,20 +830,20 @@ const PgPdfFacial: React.FC = () => {
 																																perguntas.ultimaMenstruacao,
 																															);
 
-																														localStorage.setItem(
-																															'anamneseFormDataFacial',
-																															JSON.stringify(
-																																{
-																																	...perguntas,
-																																	dataConsulta:
-																																		dataFormatadaConsulta,
-																																	nascimento:
-																																		dataFormatadaNascimento,
-																																	ultimaMenstruacao:
-																																		dataFormatadaMenstruação,
-																																},
-																															),
-																														);
+																														// localStorage.setItem(
+																														// 	'anamneseFormDataFacial',
+																														// 	JSON.stringify(
+																														// 		{
+																														// 			...perguntas,
+																														// 			dataConsulta:
+																														// 				dataFormatadaConsulta,
+																														// 			nascimento:
+																														// 				dataFormatadaNascimento,
+																														// 			ultimaMenstruacao:
+																														// 				dataFormatadaMenstruação,
+																														// 		},
+																														// 	),
+																														// );
 																														window.alert(
 																															'A data escolhida para a consulta será confirmada posteriormente através dos meios de comunicação fornecidos!!',
 																														);
@@ -1194,20 +1194,20 @@ const PgPdfFacial: React.FC = () => {
 																														perguntas.ultimaMenstruacao,
 																													);
 
-																												localStorage.setItem(
-																													'anamneseFormDataFacial',
-																													JSON.stringify(
-																														{
-																															...perguntas,
-																															dataConsulta:
-																																dataFormatadaConsulta,
-																															nascimento:
-																																dataFormatadaNascimento,
-																															ultimaMenstruacao:
-																																dataFormatadaMenstruação,
-																														},
-																													),
-																												);
+																												// localStorage.setItem(
+																												// 	'anamneseFormDataFacial',
+																												// 	JSON.stringify(
+																												// 		{
+																												// 			...perguntas,
+																												// 			dataConsulta:
+																												// 				dataFormatadaConsulta,
+																												// 			nascimento:
+																												// 				dataFormatadaNascimento,
+																												// 			ultimaMenstruacao:
+																												// 				dataFormatadaMenstruação,
+																												// 		},
+																												// 	),
+																												// );
 																												window.alert(
 																													'A data escolhida para a consulta será confirmada posteriormente através dos meios de comunicação fornecidos!!',
 																												);

@@ -2917,6 +2917,7 @@ const AnamnesePDFFacial: React.FC<AnamnesePDFPropsFacial> = ({ data }) => {
 				fontSize="12px"
 				titlePhrase="Gerar Relatório em PDF"
 				onClick={() => generatePDF(perguntas.cpf)}
+				disabled
 			/>
 		</>
 	);

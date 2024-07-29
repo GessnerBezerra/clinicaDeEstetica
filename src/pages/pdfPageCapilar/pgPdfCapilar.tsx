@@ -483,13 +483,13 @@ const PgPdfCapilar: React.FC = () => {
 				perguntas.dataConsulta,
 			);
 
-			localStorage.setItem(
-				'anamneseFormData',
-				JSON.stringify({
-					...perguntas,
-					dataConsulta: dataFormatada,
-				}),
-			);
+			// localStorage.setItem(
+			// 	'anamneseFormData',
+			// 	JSON.stringify({
+			// 		...perguntas,
+			// 		dataConsulta: dataFormatada,
+			// 	}),
+			// );
 			window.alert(
 				'A data escolhida para a consulta será confirmada posteriormente através dos meios de comunicação fornecidos!!',
 			);
