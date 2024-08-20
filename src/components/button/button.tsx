@@ -46,7 +46,7 @@ interface ButtonProps {
 	onClick?: () => void;
 	endIcon?: ReactNode;
 	to?: string;
-	href: string;
+	href?: string;
 	id?: string;
 	fontSize?: string;
 	disabled?: boolean;
