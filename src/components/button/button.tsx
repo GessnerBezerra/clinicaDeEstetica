@@ -46,6 +46,7 @@ interface ButtonProps {
 	onClick?: () => void;
 	endIcon?: ReactNode;
 	to?: string;
+	href: string;
 	id?: string;
 	fontSize?: string;
 	disabled?: boolean;
@@ -58,6 +59,7 @@ const Buttom: React.FC<ButtonProps> = ({
 	onClick,
 	endIcon,
 	to,
+	href,
 	fontSize,
 	id,
 	disabled,
@@ -73,19 +75,36 @@ const Buttom: React.FC<ButtonProps> = ({
 			disabled={disabled}
 			background={background}
 		>
+			{/* Renderiza o Link para navegação interna */}
 			{to ? (
 				<Link
 					to={to}
 					className="custom-link"
 					style={{
 						textDecoration: 'none',
-						// color: 'white',
+						color: 'inherit',
 					}}
 				>
 					{titlePhrase}
 					{children}
 				</Link>
+			) : href ? (
+				// Renderiza a tag <a> para navegação externa
+				<a
+					href={href}
+					className="custom-link"
+					style={{
+						textDecoration: 'none',
+						color: 'inherit',
+					}}
+					target="_blank" // Abre o link em uma nova aba
+					rel="noopener noreferrer" // Melhora a segurança ao abrir links externos
+				>
+					{titlePhrase}
+					{children}
+				</a>
 			) : (
+				// Caso não haja navegação, exibe apenas o texto
 				<span>{titlePhrase}</span>
 			)}
 		</StyledButton>

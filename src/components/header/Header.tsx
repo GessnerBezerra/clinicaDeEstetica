@@ -15,6 +15,7 @@ import './styles.css';
 
 import logo from '../../../public/assets/logo_trial.png';
 import '../../style/style.css';
+import Buttom from '../button/button';
 import LongMenu from '../menuPdf/menuPdf';
 import Titulo from '../titulo/titulo';
 
@@ -316,6 +317,14 @@ const Header: React.FC = () => {
 									</Button>
 								),
 							)}
+						</Box>
+						<Box sx={{ flexGrow: 0 }}>
+							<Buttom
+								background="#7B193F"
+								titlePhrase="Quero meu site agora"
+								fontSize="12px"
+								href="https://app.monetizze.com.br/checkout/KSQ383722"
+							/>
 						</Box>
 						<Box sx={{ flexGrow: 0 }}>
 							{/* Verificar se a URL é "/pdf" e desabilitar o botão */}
